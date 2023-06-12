@@ -10,7 +10,7 @@ export default function Index(): ReactElement {
   return (
     <div className="p-8 border-box mx-auto w-full max-w-5xl">
       Hello World
-      <VideoPlayer url="https://omnimirror.net/old/2023-06-10/2023-06-10_20-%5BKICK%5D.mp4" />
+      <VideoPlayer url="https://omnimirror.net/old/2023-06-11/2023-06-11_21-%5BKICK%5D.mp4" />
     </div>
   )
 }
