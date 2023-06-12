@@ -1,5 +1,5 @@
 {
-  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx", "app/components/video-player.tsz"],
+  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx", "app/components/video-player.tsz", "server.js"],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2019"],
     "isolatedModules": true,
