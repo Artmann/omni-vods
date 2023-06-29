@@ -54,7 +54,7 @@ export default function Index(): ReactElement {
                   <img
                     alt={vod.provider}
                     className="w-6 h-auto rounded-md"
-                    src={`/images/${vod.provider}.png`}
+                    src={`/images/${vod.provider.toLowerCase()}.png`}
                   />
                   <Link
                     to={`/vods/${vod.id}`}
