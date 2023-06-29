@@ -6,23 +6,9 @@ import morgan from 'morgan'
 import path from 'path'
 import serverTiming from 'server-timing'
 
-import { VodService } from './app/services/vods.server'
-
 config()
 
 const BUILD_DIR = path.join(process.cwd(), 'build')
-
-const vodService = new VodService()
-
-async function updateVodsLoop(): Promise<void> {
-  while (true) {
-    await vodService.updateVods()
-
-    await new Promise((resolve) => setTimeout(resolve, 1000 * 60 * 5))
-  }
-}
-
-updateVodsLoop()
 
 const app = express()
 

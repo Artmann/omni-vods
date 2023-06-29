@@ -8,7 +8,7 @@ export class VodService {
 
     const dates = await this.fetchDates()
 
-    for (const date of dates.reverse()) {
+    for (const date of dates.reverse().slice(0, 14)) {
       console.log(`Fetching VODs for ${date}.`)
 
       const vods = await this.listVodsByDate(date)

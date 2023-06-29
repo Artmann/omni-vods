@@ -1,6 +1,6 @@
 # Omni VODs
 
-A better way to watch Destiny VODs (The Woman, Not the Game).
+A better way to watch Destiny VODs (The Streamer, Not the Game).
 
 Instead of having to deal with the atrocity that is the Rumble and Kick video
 players, we'll try provide a player more similar to the Youtube player.
